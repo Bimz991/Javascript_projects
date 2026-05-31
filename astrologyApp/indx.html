@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Astrology Insights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+<div id="parent">
+    <form id="astroform"">
+    <h1>Astrology Insights</h1>
+
+    <label>First Name</label>
+    <input type="text" placeholder="Enter first name" id="firstname">
+
+    <label>lastname</label>
+    <input type="text" placeholder="Enter surname" id="surname" >
+
+    <label>Date of Birth</label>
+    <input type="number" placeholder="DOB" id="dateofbirth" min="1" max="31">
+
+    <label>Month</label>
+    <input type="number" placeholder="MM" id="month" min="1" max="12">
+
+    <label>Year</label>
+    <input type="number" placeholder="YYYY" id="year" required min="1947" max="2026">
+
+    <button id="button">Get Insights</button>
+
+    
+    <div id="result"></div>
+</div>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
+
